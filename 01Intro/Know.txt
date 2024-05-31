@@ -1,0 +1,3 @@
+Why only Number have 
+->> js not have a special runtime value for integers 
+   so there's no equivalent to int or flag - evry thing is simply numebers
