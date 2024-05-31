@@ -13,3 +13,9 @@ uId.toFixed();
 // boolean 
 var isLoggedIn = true;
 isLoggedIn = false;
+// any 
+var hero;
+function getHero() {
+    return "thor";
+}
+hero = getHero();
