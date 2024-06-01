@@ -10,3 +10,12 @@ Why only Number have
     // we have to index.js but it we need o tell us index.ts to make it js file in dist-folder
     ///// tsconfig.json -->  // "outDir": "./", ->> "outDir:"./dist ",
     // track the index.ts file like nodemon --> tsc -w 
+
+
+3>> Why interface is Important 
+// interface have no Defination  
+ex.. its is a protocol 
+4>> Abstarct Class
+--> 100% of Interface class it can not allow to carete Instance of Class
+---> inherit it can make instance ..
+---> method may be abstarct or non-abstarct method 
