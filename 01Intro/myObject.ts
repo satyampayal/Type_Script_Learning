@@ -1,4 +1,5 @@
 
+/*
 const user={
     name:"satyam",
     email:"satyam@gmai.com",
@@ -14,5 +15,22 @@ createuser(newUser);// in There email is Optional that is not much preety we use
 function createCourse():{name:string,price:number}{
     return {name:"reactjs",price:799}
 }
+
+*/
+
+// Type alice intro 
+type User={
+    name:string;
+    email:string;
+    isActive:boolean;
+}
+//type MyString=string
+
+function createuser(user:User):User{
+    return {name:"",email:"",isActive:true}
+
+}
+
+createuser({name:"",email:"",isActive:true})
 
  export {};

@@ -1,15 +1,25 @@
 "use strict";
+/*
+const user={
+    name:"satyam",
+    email:"satyam@gmai.com",
+    isActive:true
+}
+
+function createuser({name:string,isPaid:boolean}){
+
+}
+let newUser={name:"satyam",isPaid:false,email:"saty@gmail.com"}
+createuser(newUser);// in There email is Optional that is not much preety we used i such scenerio -interface
+
+function createCourse():{name:string,price:number}{
+    return {name:"reactjs",price:799}
+}
+
+*/
 Object.defineProperty(exports, "__esModule", { value: true });
-var user = {
-    name: "satyam",
-    email: "satyam@gmai.com",
-    isActive: true
-};
-function createuser(_a) {
-    var string = _a.name, boolean = _a.isPaid;
+//type MyString=string
+function createuser(user) {
+    return { name: "", email: "", isActive: true };
 }
-var newUser = { name: "satyam", isPaid: false, email: "saty@gmail.com" };
-createuser(newUser); // in There email is Optional that is not much preety we used i such scenerio -interface
-function createCourse() {
-    return { name: "reactjs", price: 799 };
-}
+createuser({ name: "", email: "", isActive: true });
