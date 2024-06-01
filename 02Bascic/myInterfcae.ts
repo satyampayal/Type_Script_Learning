@@ -20,7 +20,6 @@ interface Admin extends User{
     role:"admin" | "learners"
 }
 // type do like this
-
 // type admin =User & 
 //{ honey:string}
 const satyam:User={dbId:12,email:"s@.com",
