@@ -19,6 +19,7 @@ function createCourse():{name:string,price:number}{
 */
 
 // Type alice intro 
+/*
 type User={
     name:string;
     email:string;
@@ -32,5 +33,34 @@ function createuser(user:User):User{
 }
 
 createuser({name:"",email:"",isActive:true})
+*/
 
+
+type User={
+    readonly _id:string
+    name:string
+    email:string;
+    isActive:boolean;
+    creditCardDetail?:number;// optionnal
+}
+
+let myUser:User={
+    _id:"1234",
+    name:"satyam",
+    email:"s@gmail.com",
+    isActive:false
+}
+myUser.email="satygailcmo";
+//myUser._id="123";
+
+type cardNumber={
+    cardnumber:string
+}
+type cardDate={
+    cardDate:string
+}
+
+type cardDetails=cardNumber & cardDate  &{
+    cvv:number
+}
  export {};

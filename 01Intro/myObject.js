@@ -18,8 +18,10 @@ function createCourse():{name:string,price:number}{
 
 */
 Object.defineProperty(exports, "__esModule", { value: true });
-//type MyString=string
-function createuser(user) {
-    return { name: "", email: "", isActive: true };
-}
-createuser({ name: "", email: "", isActive: true });
+var myUser = {
+    _id: "1234",
+    name: "satyam",
+    email: "s@gmail.com",
+    isActive: false
+};
+myUser.email = "satygailcmo";
