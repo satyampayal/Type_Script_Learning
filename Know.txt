@@ -1,0 +1,12 @@
+Why only Number have 
+->> js not have a special runtime value for integers 
+   so there's no equivalent to int or flag - evry thing is simply numebers
+
+2>> how You use TS in project
+ // in Project Directory 
+  >>>>>> tsc --init  // first you install TS globally 
+  >>>>>>> npm init // for as your project based 
+   // to make a index.ts for your project  but for distribution 
+    // we have to index.js but it we need o tell us index.ts to make it js file in dist-folder
+    ///// tsconfig.json -->  // "outDir": "./", ->> "outDir:"./dist ",
+    // track the index.ts file like nodemon --> tsc -w 
